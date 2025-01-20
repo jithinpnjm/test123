@@ -6,4 +6,4 @@ subfolders = {
     "allex-infra" : ["allex-production", "allex-staging", "allex-staging-next", "allex-development", "allex-core-intra"],
   }
 }
-cos = "allex-gcp"
+
