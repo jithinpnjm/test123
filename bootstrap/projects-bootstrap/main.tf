@@ -3,7 +3,7 @@
 locals {
   // Runtime project variables passed
   project_config = toset(flatten([
-    for n, p in var.project_attributes : [
+
       {
         project              = n
         project_display_name = try(p.project_display_name, "") == "" ? n : p.project_display_name
