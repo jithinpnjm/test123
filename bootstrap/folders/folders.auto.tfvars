@@ -5,5 +5,5 @@ subfolders = {
   "allex-gcp" : {
     "allex-infra" : ["allex-production", "allex-staging", "allex-staging-next", "allex-development", "allex-core-intra"],
   }
-}
+
 
