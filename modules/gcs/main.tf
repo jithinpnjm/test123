@@ -5,7 +5,7 @@ resource "google_storage_bucket" "buckets" {
   location      = each.value["location"]
   storage_class = each.value["storage_class"]
   uniform_bucket_level_access = each.value["uniform_bucket_level_access"]
-  public_access_prevention = try(each.value["public_access_prevention"],"inherited")
+
 
   dynamic "lifecycle_rule" {
   for_each = try(each.value["lifecycle_rules"], [])
